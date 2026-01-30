@@ -44,16 +44,16 @@ Enhanced read performance by dynamically positioning replicas closer to frequent
 
 ### Experimental Results (Summary)
 
-  | Nodes | Baseline Request Completion Time (ms) | Multimodal Request Completion Tim (ms) | Improvment (%)  |
-  |-------|---------------------------------------| ---------------------------------------| ----------------|
-  | 3     |  120                                  | 95                                     | 20.83           |
-  | 5     |  145                                  | 115                                    | 20.69           |
-  | 7     |  175                                  | 140                                    | 20.00           |
-  | 9     |  210                                  | 165                                    | 21.43           |
-  | 11    |  250                                  | 195                                    | 22.00           |
+  | Nodes | Baseline Replication latency (ms) | Adaptive Replication latency (ms) | Improvment (%)  |
+  |-------|-----------------------------------| ----------------------------------| ----------------|
+  | 3     |  1400                             | 620                               | 55.71           |
+  | 5     |  1330                             | 560                               | 57.89           |
+  | 7     |  1250                             | 515                               | 58.80           |
+  | 9     |  1200                             | 490                               | 59.17           |
+  | 11    |  1160                             | 470                               | 59.48           |
 
 ### Citation
-Multimodal Observability for Input Output Bottleneck Detection
+Adaptive Replication for Low Latency Distributed Clusters
 * Arunkumar Sambandam
 * ***********************************International Journal of Leading Research Publication 
 * ISSN E-ISSN: *****************************2582-8010
