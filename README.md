@@ -1,6 +1,6 @@
 
-# multimodal-observability
-**Multimodal Observability for Input Output Bottleneck Detection**
+# adaptive-replication
+**Adaptive Replication for Low Latency Distributed Clusters**
 
 ### Paper Information
 - **Author(s):** Arunkumar Sambandam
@@ -11,40 +11,36 @@
 - **Impact Factor:** *******9.56
 
 ### Abstract
-This paper addresses the challenge of identifying Input/Output bottlenecks in complex distributed data pipelines where isolated observability metrics provide limited insight. 
-It highlights how single-modal monitoring fails to accurately localize performance issues caused by cross-layer interactions in dynamic, heterogeneous environments. The proposed 
-Multimodal Observability framework unifies metrics, logs, and traces to enable correlated, cross-layer analysis of Input/Output behavior. By aligning low-level signals with 
-execution paths, the approach improves bottleneck detection accuracy and reduces misdiagnosis in large-scale pipelines.
+This paper addresses the limitations of static data replication policies in distributed systems operating under heterogeneous networks and dynamic workloads. It proposes an adaptive replication strategy that leverages real-time telemetry, including network latency, access patterns, and I/O behavior, to optimize replica placement. By dynamically relocating replicas closer to demand, the approach reduces cross-node communication, read latency, and tail delays. The framework provides a practical, telemetry-driven architecture for improving performance and locality in modern distributed clusters.
 
 ### Key Contributions
-- **Multimodal Observability Framework for I/O Bottleneck Detection:**
-  Proposed a structured observability architecture that overcomes the limitations of single-modal monitoring by integrating metrics, logs, and traces into a unified model for distributed data pipelines.
+- **Adaptive Replication Framework:**
+  Proposed a telemetry-driven replication architecture that dynamically adjusts replica placement to reduce latency under changing network and workload conditions.
   
-- **Cross-Layer Correlation of I/O Behavior:**
-  Introduced a correlation mechanism that aligns low-level Input/Output signals with execution paths and system events, enabling accurate localization of bottlenecks across storage, network, and application layers.
-  
-- **Pipeline-Wide Bottleneck Identification Methodology:**
-  Developed a systematic approach to distinguish true Input/Output bottlenecks from secondary performance symptoms by analyzing interactions across pipeline stages under dynamic workloads.
+- **Latency-Aware Placement:**
+  Introduced a decision model that uses network latency, access patterns, and I/O signals to select optimal replica locations across distributed clusters.
+    
+- **Dynamic Replica Migration:**
+  Developed a systematic method to relocate replicas closer to demand while maintaining consistency and fault tolerance.
    
-- **End-to-End Design, Implementation, and Experimental Evaluation:**
-  Designed, implemented, and validated the framework using distributed pipeline simulations across multiple cluster sizes, demonstrating consistent reductions in request completion time compared to baseline observability approaches.
+- **End-to-End Validation:**
+  Designed, implemented, and evaluated the approach using multi-node clusters, demonstrating consistent latency reductions over baseline replication.
   
 ### Relevance & Real-World Impact
-- **Improved Precision in Bottleneck Diagnosis:**
-  Significantly reduced misattribution of performance issues by enabling precise identification of Input/Output bottlenecks through multimodal signal correlation.
+- **Lower Replication Latency:**
+  Achieved substantial and consistent reductions in replication and data access latency across varying cluster sizes.
    
-- **Faster and More Reliable Performance Troubleshooting:**
-Enabled quicker diagnosis and mitigation of performance degradation, reducing operational delays caused by fragmented observability and manual analysis.
+- **Improved Data Locality:**
+Enhanced read performance by dynamically positioning replicas closer to frequently accessing nodes.
 
-- **Scalable Observability for Distributed and Cloud-Native Pipelines:**
-    Demonstrated effectiveness across varying cluster sizes and workload intensities, maintaining diagnostic accuracy as coordination overhead and I/O contention evolve with scale.
+- **Scalable Performance:**
+    Maintained low latency as cluster size increased despite growing network and coordination complexity.
   
-  **Operational Stability Under Dynamic Workloads:**
-  Improved system stability by providing continuous visibility into shifting I/O contention patterns, supporting proactive performance management instead of reactive tuning.
+  **Adaptive Stability:**
+  Improved system responsiveness by continuously adapting to network and I/O dynamics.
    
-- **Production and Research Applicability:**
-    Delivered a framework compatible with modern distributed and cloud native environments, offering a complete reference model architecture, implementation, and evaluation suitable
-    for industry observability platforms, academic research, and advanced systems education.
+- **Production Ready:**
+    Delivered a lightweight, practical framework suitable for cloud deployments, research, and advanced systems education.
 
 ### Experimental Results (Summary)
 
