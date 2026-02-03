@@ -4,10 +4,10 @@
 
 ### Paper Information
 - **Author(s):** Arunkumar Sambandam
-- **Published In:** *********************************************International Journal of Leading Research Publication (IJLRP)
-- **Publication Date:** ******Aug 2021
-- **ISSN:** E-ISSN: **********2582-8010
-- **DOI:**
+- **Published In:** International Journal of Intelligent systems and Applications in Engineering - IJISAE
+- **Publication Date:** ******May 2022
+- **ISSN:** E-ISSN: 2147-6799
+- **DOI:** https://ijisae.org/index.php/IJISAE/article/view/8002/7016
 - **Impact Factor:** *******9.56
 
 ### Abstract
@@ -55,14 +55,14 @@ Enhanced read performance by dynamically positioning replicas closer to frequent
 ### Citation
 Adaptive Replication for Low Latency Distributed Clusters
 * Arunkumar Sambandam
-* ***********************************International Journal of Leading Research Publication 
-* ISSN E-ISSN: *****************************2582-8010
+* International Journal of Intelligent systems and Applications in Engineering - IJISAE
+* ISSN E-ISSN: 2147-6799
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijlrp.com*****************/ \
-**Author Contact** \
-**LinkedIn**: https://www.linkedin.com/**** | **Email**: arunkumar.sambandam@yahoo.com
+https://ijisae.org/index.php/IJISAE/article/view/8002/7016
+**Author Contact** 
+**LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b6 | **Email**: arunkumar.sambandam@yahoo.com
 
 
 
