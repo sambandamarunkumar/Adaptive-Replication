@@ -5,7 +5,7 @@
 ### Paper Information
 - **Author(s):** Arunkumar Sambandam
 - **Published In:** International Journal of Intelligent systems and Applications in Engineering - IJISAE
-- **Publication Date:** ******May 2022
+- **Publication Date:** May 27, 2022
 - **ISSN:** E-ISSN: 2147-6799
 - **DOI:** https://ijisae.org/index.php/IJISAE/article/view/8002/7016
 - **Impact Factor:** *******9.56
